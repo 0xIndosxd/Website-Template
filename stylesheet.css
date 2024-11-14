@@ -1,0 +1,17 @@
+.box-shadow-img {
+    box-shadow: inset 0 .05rem 4rem 0rem rgb(0 0 0)
+}
+.darken-img {
+    filter: brightness(50%)
+}
+.centered-text {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.card {
+    --bs-card-border-width: 0;
+    --bs-card-inner-border-radius: 0;
+}
